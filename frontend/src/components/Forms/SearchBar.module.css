@@ -1,0 +1,73 @@
+.form {
+  background-color: white;
+  padding: 10px;
+}
+.row {
+  display: flex;
+  margin-top: 10px;
+  gap: 10px;
+}
+.control {
+  flex: 1;
+}
+.SearchContainer {
+  flex: 1 1 40%;
+}
+.TypeContainer {
+  flex: 1 1 25%;
+}
+
+.searchValue {
+  height: 28px;
+  width: 100%;
+  background-color: #dadada;
+  border: none;
+}
+
+.control select {
+  width:100%;
+  height: 30px;
+  background-color: #dadada;
+  border: none;
+  color: #808080;
+}
+
+.actions {
+  flex: 1 1 10%;
+  padding: 0 2px;
+}
+
+.actions button {
+  width:50%;
+  border: 1px solid #a4d4a4;
+  background-color: #ffffff;
+  color: #a4d4a4;
+  height: 30px;
+}
+
+.actions button.active {
+  background-color: #a4d4a4;
+  border: 1px solid #a4d4a4;
+  color: #ffffff;
+  height: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .SearchContainer {
+    flex: 1 1 50%;
+  }
+  .TypeContainer {
+    flex: 1 1 30%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .row {
+    gap: 20px;
+  }
+  .SearchContainer {
+    flex: 1 1 60%;
+  }
+  .TypeContainer {
+    flex: 1 1 30%;
+  }
+}

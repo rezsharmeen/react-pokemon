@@ -1,0 +1,30 @@
+.row {
+  display: flex;
+  height: auto;
+  border: 1px solid #cccccc;
+  background-color: #F0F0F0;
+  margin: 1%;
+  align-self: center;
+}
+.rowimage {
+  max-width: 10%;
+  max-height: 10%;
+  padding: 0 10px 0 0;
+}
+.info {
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+}
+.detail {
+  width: 100%;
+  margin: 10px;
+}
+.detail .title {
+  font-size: 1em;
+  font-weight: bold;
+} 
+.action {
+  padding-right: 10px;
+  align-self: center;
+}
